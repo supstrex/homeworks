@@ -163,10 +163,10 @@ class CustomBigInt {
   }
 }
 
-let a = CustomBigInt.toBigInt("-645646464654997865465");
-let b = CustomBigInt.toBigInt("123567895461203");
+let a = CustomBigInt.toBigInt("4444444444444447444444444444445");
+let b = CustomBigInt.toBigInt("5555555555555555555555555555555");
 //uncomment for testing
 //console.log(a, b);
 //console.log(CustomBigInt.compare(a, b));
-//console.log(CustomBigInt.addition(a, b));
+console.log(CustomBigInt.addition(a, b));
 //console.log(CustomBigInt.toString(a));
